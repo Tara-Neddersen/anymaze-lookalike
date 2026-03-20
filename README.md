@@ -28,6 +28,11 @@ npm run dev
 
 Then open `http://localhost:5173`.
 
+## Git / large files
+
+`*.mp4` and local SQLite DBs (`*.db`) are ignored by git (GitHub file limits and local data).  
+Keep your own copies of demo videos under `backend/data/demo/` or `sample_open_field.mp4` locally.
+
 ## Next up
 
 - Metrics (distance, speed, time-in-zones) + CSV export
